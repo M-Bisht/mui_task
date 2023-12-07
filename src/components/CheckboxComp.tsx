@@ -139,7 +139,7 @@ export default function CheckboxComp() {
           showChild2,
           parent2,
           parentHandler2,
-          "customer_service"
+          "design"
         )}
         {showChild2 && (
           <div className="child">
@@ -151,7 +151,7 @@ export default function CheckboxComp() {
                   name="child1"
                 />
               }
-              label="support"
+              label="graphic_design"
             />
             <FormControlLabel
               control={
@@ -161,7 +161,7 @@ export default function CheckboxComp() {
                   name="child2"
                 />
               }
-              label="customer_success"
+              label="product_design"
             />
             <FormControlLabel
               control={
@@ -171,7 +171,7 @@ export default function CheckboxComp() {
                   name="child3"
                 />
               }
-              label="support"
+              label="web_design"
             />
           </div>
         )}
