@@ -1,0 +1,16 @@
+.checkboxContainer {
+  display: inline-block !important;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.parent {
+  display: flex;
+  align-items: center;
+}
+
+.child {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
